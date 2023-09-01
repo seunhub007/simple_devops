@@ -31,7 +31,7 @@ pipeline {
 
                     sudo rm -rf html 
 
-                    mkdir html
+                    sudo mkdir html
 
                     cd html
 
