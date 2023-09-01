@@ -24,7 +24,7 @@ pipeline {
             steps{
                 sh """
 
-                    cd /var/www
+                    sudo cd /var/www
 
                     rm -rf html 
 
