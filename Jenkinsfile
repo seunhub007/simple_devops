@@ -32,7 +32,7 @@ pipeline {
 
                     cd html
 
-                    git clone https://github.com/theoafactor/simple_personal_devops.git .
+                    git clone https://github.com/seunhub007/simple_devops.git .
 
                     
 
