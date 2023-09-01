@@ -24,10 +24,12 @@ pipeline {
             steps{
                 sh """
                     sudo apt-get install nginx -y
-
+                    
+                    sudo systemctl start nginx
+                    
                     cd /var/www
 
-                    rm -rf html 
+                    sudo rm -rf html 
 
                     mkdir html
 
