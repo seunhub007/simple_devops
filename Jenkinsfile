@@ -35,7 +35,7 @@ pipeline {
 
                     cd html
 
-                    git clone https://github.com/seunhub007/simple_devops.git .
+                    sudo git clone https://github.com/seunhub007/simple_devops.git .
 
                     
 
