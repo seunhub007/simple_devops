@@ -23,8 +23,9 @@ pipeline {
         stage("host website"){
             steps{
                 sh """
+                    sudo apt-get install nginx -y
 
-                    sudo cd /var/www
+                    cd /var/www
 
                     rm -rf html 
 
