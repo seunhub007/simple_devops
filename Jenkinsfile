@@ -27,7 +27,7 @@ pipeline {
                     
                     sudo systemctl start nginx
                     
-                    cd /var/www
+                    sudo cd /var/www
 
                     rm -rf html 
 
