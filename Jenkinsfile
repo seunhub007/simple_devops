@@ -28,6 +28,7 @@ pipeline {
                     sudo systemctl start nginx
                     
                     cd /var/www
+                    sudo chown -R jenkins:jenkins www
 
                     rm -rf html 
 
