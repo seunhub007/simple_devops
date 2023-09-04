@@ -29,7 +29,7 @@ pipeline {
                     
                     cd /var/www
 
-                    sudo rm -rf html 
+                    rm -rf html 
 
                     sudo mkdir html
 
